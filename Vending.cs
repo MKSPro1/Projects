@@ -12,7 +12,6 @@ namespace VendingMachine
 
         public Vend()
         {
-
         }
         public void CoinInsert(double tendered) // Summing the coins inserted
         {
