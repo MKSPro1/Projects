@@ -52,11 +52,6 @@ namespace VendingMachine
                 price = 1.25;
                 Console.WriteLine("You selected " + itemSelectResult + " - Beef Jerkey - The price is $" + String.Format("{0:0.00}", price));
             }
-            else if (itemSelectResult == 5)
-            {
-                price = 0.00;
-                //Console.WriteLine("Your refund is $" + String.Format("{0:0.00}", newBalance));
-            }
             else
             {
                 Console.WriteLine("Please select a valid item number");
