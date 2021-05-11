@@ -1,6 +1,3 @@
-﻿
-// This is the side that gets user input
-
 using System;
 
 namespace VendingMachine
