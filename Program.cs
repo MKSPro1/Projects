@@ -18,7 +18,7 @@ namespace VendingMachine
         }
         static void methodCoinDenom(Vend vend)
         {
-            Console.WriteLine("Please insert a coin");
+            Console.WriteLine("Please insert a coin:");
             string coinDenom = Console.ReadLine();
             bool isDoubleCoin = double.TryParse(coinDenom, out double coinDenomResult);
 
